@@ -27,6 +27,9 @@ html {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+.card td img {
+  width: 200px;
+}
 
 .container {
   padding: 0 16px;
@@ -61,24 +64,28 @@ html {
 </head>
 <bodyTuring 2017 PhD students</h2>
 
-<h1>Examples</h1>
+
+<div class="section">
+  <h1>Examples</h1>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
-      		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
+      <td>
+      		<img src="https://raw.githubusercontent.com/WhitakerLab/WhitakerLabProjectManagement/master/Kirstie-Whitaker/pictures/Hindex_KirstieWhitaker.jpg" alt="Kirstie Whitaker">
       </td>
       <td>
       <div class="container">
-        <h2>Your name</h2>
-        <p class="title">PhD student or Enrichment student</p>
+<h2>Kirstie Whitaker</h2>
+        <p class="title">Research Fellow</p>
         <h3>Research interests</h3>
-        <p class="research_interests">List of research interests separated by a semi-colon</p>
+        <p class="research_interests">Reproducible research; Open science; Neuroimaging; Mental health; Adolescent development</p>
         <h3>About me</h3>
-        <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
+        <p>Passionate advocate for diversity in STEMM fields. Research focuses on brain development during childhood and adolescence. Particularly interested in the emergence of mental health disorders during the teenage years.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
 
@@ -86,7 +93,7 @@ html {
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/martin_oreilly.jpg" alt="Martin O'Reilly">
       </td>
       <td>
@@ -94,54 +101,60 @@ html {
         <h2>Martin O'Reilly</h2>
         <p class="title">Research Software Engineer</p>
         <h3>Research interests</h3>
-        <p class="research_interests">Reproducible research; Cloud computing; 
+        <p class="research_interests">Reproducible research; Cloud computing;
         	Machine learning; Image processing; Neuroscience;</p>
         <h3>About me</h3>
-        <p>After a BSc in Physics at Imperial and a year as a travelling salesman in Australia, I 
+        <p>After a BSc in Physics at Imperial and a year as a travelling salesman in Australia, I
         	worked an analyst and software developer for 5 years, eventually running my
         	own team. While enjoying my time in industry, I wanted to work on problems
         	no one had solved before, so I went back to school - first to a master's in
-        	artificial intelligence at Edinburgh and then to a PhD in computational 
+        	artificial intelligence at Edinburgh and then to a PhD in computational
         	neuroscience at UCL.</p>
-        	
+
     	<p>Enjoying the research environment but frustrated with
         	the slow pace, superspecialisation and precarious nature of the academic career
         	path, I went back to industry for 3 years as an independent software development
-        	consultant. Last November, I discovered research software engineering and the 
-        	Turing and now marry all my professional interests running the software 
+        	consultant. Last November, I discovered research software engineering and the
+        	Turing and now marry all my professional interests running the software
         	engineering half of the Turing's Research
         	Engineering team.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
-  
-<h1>Doctoral students</h1>
+</div>
+
+<div class="section">
+  <h1>Doctoral students</h1>
 
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
       <div class="container">
-        <h2>Albese Demjaha</h2>
-        <p class="title">PhD student or Enrichment student</p>
-        <h3>Research interests</h3>
+        <h2>Albesë Demjaha</h2>
+        <p class="title">PhD student</p>
+        <h3>Information Security; Privacy; Human-centred Security; Socio-economic aspects of security policy and privacy;</h3>
         <p class="research_interests">List of research interests separated by a semi-colon</p>
-        <h3>About me</h3>
+        <p>I have a BSc in Information Systems and Management from the South East European University in Macedonia. I just completed an MSc at UCL in Information Security and my thesis was about re-engineering cryptographic metaphors.</p>
         <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -154,70 +167,81 @@ html {
         <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
       <div class="container">
         <h2>Amartya Sanyal</h2>
-        <p class="title">PhD student or Enrichment student</p>
+        <p class="title">PhD student</p>
         <h3>Research interests</h3>
-        <p class="research_interests">List of research interests separated by a semi-colon</p>
+        <p class="research_interests">Learning Theory; Optimization; Deep Learning; Adversarial Models; </p>
         <h3>About me</h3>
-        <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
+        <p>I have an undergraduate degree from IIT Kanpur with a B.Tech in Computer Science and Engineering and a minor in Linguistics Theory. During these four years, I visited quite a few places where I carried out short term research projects. I spent some time in Indian Statistical Institute, Kolkata and Indian Institute of Science, Bengaluru. Following that I spent a summer at the Amazon ML lab in Bangalore where I worked on developing a model in competitive pricing, which was later deployed(supposedly). I spent the next summer in the Montreal Institute of Learning Algorithms(MILA) where I worked on developing an adaptive segmentation language generation model, which was published at the MLSLP workshop at ICML, Sydney. I spent the following summer at the Twitter Cortex group in NYC working with Nicholas Leonard and Nicolas Koumchatzky woking on adversarial discrete sequence generation models.
+	</p>
+	<p>
+	Currently, I am a doctoral student in the Department of Computer Science at The University of Oxford where I am supervised by Dr. Varun Kanade and Dr. Phil Torr from the Engineering Scienec department. I also active engage in coding and contributing to open source libraries, which is available in my github repository. I am also interested in Brazilian Ji-Jitsu and board games. </p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
       <div class="container">
         <h2>Andrew Burnie</h2>
-        <p class="title">PhD student or Enrichment student</p>
+        <p class="title">PhD student</p>
         <h3>Research interests</h3>
-        <p class="research_interests">List of research interests separated by a semi-colon</p>
+        <p class="research_interests">Machine Learning; Cryptocurrencies; Web Media</p>
         <h3>About me</h3>
-        <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
+        <p>BA at Cambridge; MSc at GGSB; now studying at UCL</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
       <div class="container">
-        <h2>Francesco Cosentino</h2>
-        <p class="title">PhD student or Enrichment student</p>
+         <h2>Francesco Cosentino</h2>
+        <p class="title">PhD student</p>
         <h3>Research interests</h3>
-        <p class="research_interests">List of research interests separated by a semi-colon</p>
+        <p class="research_interests">Math; Optimization; Machine Learning</p>
         <h3>About me</h3>
-        <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
+        <p>Hello everybody I am Francesco, I studied Math and I worked one year as FX financial analyst. I am starting my DPhil in Computer Science at Oxford.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -231,32 +255,39 @@ html {
           I worked as a research assistant at the Universite Catholique de Louvain for the past 6 months.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
       <div class="container">
         <h2>Julien Vaes</h2>
-        <p class="title">PhD student or Enrichment student</p>
+        <p class="title">PhD student</p>
         <h3>Research interests</h3>
-        <p class="research_interests">List of research interests separated by a semi-colon</p>
+        <p class="research_interests">Numerical algortihms; Optimization</p>
         <h3>About me</h3>
-        <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
+        <p>I got a bachelor and master degree in mathematical engineering at the Universite catholique de Louvain, Belgium.
+          I studied also two years at the Ecole Centrale Paris for a double degree. </p>
+
+        <p>I am also a deep passionate in sports such as hockey, tennis, etc. </p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -269,51 +300,57 @@ html {
         <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
       <div class="container">
         <h2>Nicolas Anastassacos</h2>
-        <p class="title">PhD student or Enrichment student</p>
+        <p class="title">PhD student</p>
         <h3>Research interests</h3>
-        <p class="research_interests">List of research interests separated by a semi-colon</p>
+        <p class="research_interests">Reinforcement Learning; Cognitive Science; Deep Learning; Psychology</p>
         <h3>About me</h3>
-        <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
+        <p>BSc Cognitive Science at Edinburgh University followed by an MSc Data Science at UCL. Research looks to focus on analyzing personality and behaviour, notably with an emphasis on cooperation.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
       <div class="container">
         <h2>Nikolas Kuhlen</h2>
-        <p class="title">PhD student or Enrichment student</p>
+        <p class="title">PhD student</p>
         <h3>Research interests</h3>
-        <p class="research_interests">List of research interests separated by a semi-colon</p>
+        <p class="research_interests">Computational Statistics; Econometrics; Machine Learning; Economics.</p>
         <h3>About me</h3>
-        <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
+        <p>I am a PhD student in Statistics at the University of Warwick and The Alan Turing Institute.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -326,13 +363,15 @@ html {
         <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -345,32 +384,38 @@ html {
         <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
       <div class="container">
         <h2>Stavroula Gerontogianni</h2>
-        <p class="title">PhD student or Enrichment student</p>
+        <p class="title">PhD student</p>
         <h3>Research interests</h3>
-        <p class="research_interests">List of research interests separated by a semi-colon</p>
+        <p class="research_interests">Variational Inference; Markov Chain Monte carlo sampling algorithms;</p>
         <h3>About me</h3>
-        <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
+        <p>I completed a 4-year degree of Statistics at the Athens University of Economics and Business.
+          I continued my studies in the same university and received my MSc degree in Statistics in September 2017.
+          In October 2017 I joined the University of Cambridge as a first year PhD student in the Department of Medical Genetics.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -378,18 +423,20 @@ html {
         <h2>Taha Ceritli</h2>
         <p class="title">PhD student or Enrichment student</p>
         <h3>Research interests</h3>
-        <p class="research_interests">List of research interests separated by a semi-colon</p>
+        <p class="research_interests">Bayesian statistics and machine learning; Probabilistic graphical models</p>
         <h3>About me</h3>
-        <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
+        <p>I got my BS and MS from Bogazici University, Turkey. I am now starting my doctoral studies at the University of Edinburgh/The Alan Turing Institute.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -397,21 +444,23 @@ html {
         <h2>YZhenzheng (Helen) Hu</h2>
         <p class="title">PhD student or Enrichment student</p>
         <h3>Research interests</h3>
-        <p class="research_interests">List of research interests separated by a semi-colon</p>
+        <p class="research_interests">computational statistics; missing data; mislabeled data; statistical learning</p>
         <h3>About me</h3>
-        <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
+        <p>I did my undergraduate in Mathematics at Berkeley and then did my masters in Statistics and Data Science.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
-  
-  
-<h1>Enrichment students</h1>
+
+<div class="section">
+  <h1>Enrichment students</h1>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -424,13 +473,15 @@ html {
         <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -443,51 +494,62 @@ html {
         <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
       <div class="container">
         <h2>Bertram Vidgen</h2>
-        <p class="title">PhD student or Enrichment student</p>
+        <p class="title">Enrichment student</p>
         <h3>Research interests</h3>
-        <p class="research_interests">List of research interests separated by a semi-colon</p>
+        <p class="research_interests">online politics; nlp; hate speech</p>
         <h3>About me</h3>
-        <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
+        <p>Studied at Warwick, Essex, Oxford.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
       <div class="container">
         <h2>Charlie Dickens</h2>
-        <p class="title">PhD student or Enrichment student</p>
+        <p class="title">Enrichment student</p>
         <h3>Research interests</h3>
-        <p class="research_interests">List of research interests separated by a semi-colon</p>
+        <p class="research_interests">Randomised Numerical Linear Algebra; Applications of RNLA to Machine Learning</p>
         <h3>About me</h3>
-        <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
+        <p>I am a second year PhD student working under the supervision of Graham Cormode on the project 'Small Summaries for Big Data'.
+          This year I will be based at the Alan Turing Institute for Data Science.
+          Previously, I studied for my Mathematics MSci at the University of Birmingham.</p>
+
+  <p>Currently, we are studying randomised algorithms for fundamental matrix computations and related problems.
+          This is a vibrant area of research using ideas from fundamental topics in Mathematics, Statistics, and Computer Science. Such methods will be useful in developing algorithms for big data which is becoming ubiquitous in applications.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -500,13 +562,15 @@ html {
         <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -519,13 +583,15 @@ html {
         <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -538,32 +604,36 @@ html {
         <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
       <div class="container">
         <h2>Henry-Louis de Kergorlay</h2>
-        <p class="title">PhD student or Enrichment student</p>
+        <p class="title">Enrichment student</p>
         <h3>Research interests</h3>
         <p class="research_interests">List of research interests separated by a semi-colon</p>
         <h3>About me</h3>
-        <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
+        <p>Manifold learning and dimension reduction; Topological Data Analysis</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -576,13 +646,15 @@ html {
         <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -595,13 +667,15 @@ html {
         <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -614,13 +688,15 @@ html {
         <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -633,32 +709,42 @@ html {
         <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
-      		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
+      <td>
+      		<img src="profile_pictures/nathancunn.jpg" alt="Your name">
       </td>
       <td>
       <div class="container">
         <h2>Nathan Cunningham</h2>
-        <p class="title">PhD student or Enrichment student</p>
+        <p class="title">Enrichment student</p>
         <h3>Research interests</h3>
-        <p class="research_interests">List of research interests separated by a semi-colon</p>
+        <p class="research_interests">Cluster analysis; MCMC; particle Monte Carlo; applied statistics</p>
         <h3>About me</h3>
-        <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
+        <p>I did my undergraduate degree in economics and finance in University College Dublin, and subsequently did a
+          Masters in statistics in UCD also. I then worked for three years with the Economic and Social Research Institute,
+          within the health research team where I worked on projects like comparing mortality rates of Irish hospitals and
+        assessing the financial impact of a proposed plan to introduce Universal Health Insurance in Ireland. I then started
+        my PhD in the OxWaSP CDT as a student of the university of Warwick.
+      </p>
+
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -671,13 +757,15 @@ html {
         <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -690,13 +778,15 @@ html {
         <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
@@ -709,26 +799,55 @@ html {
         <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
       </div>
       </td>
+      </tr>
+      </table>
     </div>
   </div>
   <div class="row">
     <div class="card">
       <table>
       <tr>
-      <td width="200px">
+      <td>
       		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
       </td>
       <td>
       <div class="container">
         <h2>Zhangdaihong (Jessie) Liu</h2>
-        <p class="title">PhD student or Enrichment student</p>
+        <p class="title">Enrichment student</p>
         <h3>Research interests</h3>
-        <p class="research_interests">List of research interests separated by a semi-colon</p>
+        <p class="research_interests">Statistical Neurosceince; Machine Learning; Predictive Modelling; Reproducibility Study. </p>
         <h3>About me</h3>
-        <p>A paragraph or two about your previous academic and professional experience and anything else you'd like to share.</p>
+        <p>I am a third year PhD student at the CDT of Mathematics for Real-world Systems at University of Warwick. I am jointly supervised by Prof. Thomas Nichols and
+          Prof. Jianfeng Feng. I am currently working on linking brain connectivity, demographics and behaviour using HCP data.
+          I completed the MathSys MSc in 2015. Before University of Warwick, I obtained a MSc in Mathematical Finance at Loughborough University
+          and a BSc in Mathematics at Shandong University, China.</p>
       </div>
       </td>
+      </table>
     </div>
   </div>
+
+     <div class="row">
+    <div class="card">
+      <table>
+      <tr>
+      <td>
+      		<img src="profile_pictures/<image_name>.jpg" alt="Your name">
+      </td>
+      <td>
+      <div class="container">
+        <h2>Miguel Morin</h2>
+        <p class="title">Research Associate (HSBC Programme)</p>
+        <h3>Research interests</h3>
+        <p class="research_interests">economics; computer science; data science</p>
+        <h3>About me</h3>
+        <p>I currently hold a post-doc to work on and write software for data-centric economics.</p>
+      </div>
+      </td>
+      </tr>
+      </table>
+    </div>
+  </div>
+</div>
 </body>
 </html>
